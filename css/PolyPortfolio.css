@@ -1,0 +1,107 @@
+.jumbotron {
+	padding-bottom: 0px;
+	background-color: black;
+}
+.jumbotron h1 {
+	font-family: 'Josefin Slab', serif;
+	font-size: 75px;
+	color: white;
+	letter-spacing: -5px; 
+	text-align: center;
+	padding-bottom: 0px;
+	margin: 0px !important; 
+	line-height: 26px;	
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top; 
+}
+.navbar .navbar-collapse {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  word-spacing: -0.2em; 
+}
+.navbarText {
+	color: black;
+	font-size: 15px;
+	font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+}
+/*font-awesome*/
+.fa {
+  color: white;
+  margin-left: 7px;
+}
+#fa-container {
+	background-color: black; 
+	text-align: center; 
+	padding-bottom: 4px;
+}
+.row-centered {
+	text-align:center;
+	background-size: cover;
+}
+.col-md-4 {
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.col-centered { 
+	display:inline-block; 
+	float:none; 
+	margin-right:-4px;
+	text-align: left;
+}
+/*cards that hold interior sets*/
+.card-img {
+	width: auto;
+	height: 262;
+	max-height: 262px;
+}
+.hexagon:hover {
+	opacity: 0.8;
+	box-shadow: 0 0 20px rgba(0,0,255,0.6);
+}
+#HomeContainer {
+	padding-top: 30px;	
+	text-align: center;
+	margin-bottom: 60px;
+}
+#HomeContainer h1 {
+	font-size: 15px;
+	font-family: 'Roboto Mono', monospace;
+}
+#HomeContainer h2 {
+	font-size: 20px;
+	color: #1b1d36;
+	font-family: 'Pacifico', cursive;
+}
+#InteriorContainer {
+	padding-top: 30px;
+	margin-bottom: 40px;
+}
+/*Vertical text container*/
+#InteriorLeftDiv {
+	background-color: #D7DAEB; 
+	padding-bottom: 420px;
+    background: -webkit-linear-gradient(left, #DFBDFF,  #D7DAEB , white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #DFBDFF, #D7DAEB, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #DFBDFF, #D7DAEB, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #DFBDFF, #D7DAEB , white); /* Standard syntax (must be last) */   
+}
+/*Vertical text*/
+#InteriorLeftDiv h1 {
+	font-family: 'Josefin Slab', serif;
+	color: white;
+    width:1px;
+    word-wrap: break-word;
+    font-family: monospace;
+    }
+#AboutContainer {
+	font-size: 15px;
+	padding-top: 20px;
+	margin-bottom: 60px;
+}
+
