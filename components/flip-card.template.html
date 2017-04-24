@@ -1,0 +1,24 @@
+<div class="container-fluid" id="InteriorContainer">
+
+  <div class="col-md-3" id="InteriorLeftDiv">
+    <h1>Minimalist</h1>
+  </div>
+
+  <div class="col-md-9" id="InteriorRightDiv">
+    <div class="row">
+
+      <div class="col-md-4 noppading" ng-repeat="currentImage in $ctrl.flipImages"> 
+       <div class="card">
+          <div class="front"> 
+            <img ng-src="{{currentImage.frontImg}}" height="262px" />
+          </div>
+          <div class="back">
+            <img ng-src="{{currentImage.backImg}}" height="262px" />
+          </div> 
+        </div>
+      </div>
+    
+    </div>
+  </div> 
+
+</div>

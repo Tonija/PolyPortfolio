@@ -1,0 +1,22 @@
+
+<div class="container-fluid" id="InteriorContainer" ng-repeat="imgF in $ctrl.frontImages" ng-repeat="imgB in $ctrl.backImages">
+
+  <div class="col-md-3" id="InteriorLeftDiv">
+    <h1>Minimalist</h1>
+  </div>
+
+  <div class="col-md-9" id="InteriorRightDiv">
+    <div class="row justify-content-md-start">
+      <div class="col-md-4 noppading"> 
+        <div class="card"> 
+          <div class="front"> 
+            {{imgF}} 
+          </div> 
+          <div class="back">
+            {{imgB}}
+          </div> 
+        </div>
+      </div>
+    </div>
+
+</div>

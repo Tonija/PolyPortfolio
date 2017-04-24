@@ -55,7 +55,7 @@
 	text-align: left;
 }
 /*cards that hold interior sets*/
-.card-img {
+.card img {
 	width: auto;
 	height: 262;
 	max-height: 262px;
